@@ -1,9 +1,8 @@
 <template lang="pug">
-html
-  body
+div
+  div
     h1 > kodum_blog
       span.cursor |
-    <br>
   <Nuxt />
   footer.
     #[a(href="https://leckemby.me") about]
@@ -14,11 +13,6 @@ html
 </template>
 
 <style scoped>
-@import url('https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css');
-@import url('https://newcss.net/theme/terminal.css');
-body {
-  padding: 0;
-}
 .cursor {
   animation: blinker 1.2s step-end infinite;
 }
