@@ -38,6 +38,7 @@ export default {
 </script>
 
 <style>
+/* Need to manually keep this matching with blogposts/_slug until i can fix it */
 h1,
 h2,
 h3,
