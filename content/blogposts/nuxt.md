@@ -12,4 +12,4 @@ With relative ease, I was able to fully recreate [this blog](https://github.com/
 
 Coming soon: I actually create a CMS for these posts.
 
-[^1]: [micro](https://micro-editor.github.io/) is a default install on every one of my machines. Imagine nano, but with sensible keybindings and mouse support. :swoon:
+&nbsp;[^1]: [micro](https://micro-editor.github.io/) is a default install on every one of my machines. Imagine nano, but with sensible keybindings and mouse support. :swoon:

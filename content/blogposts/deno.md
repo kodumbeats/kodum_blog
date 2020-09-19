@@ -10,4 +10,4 @@ As a syadmin, the project goals resonate strongly with me: deno ships as a singl
 
 I wanted an environment to try out this new engine, but by default, Glitch only runs Node.js projects. After some trial-and-error (plus some help from geniuses in the community), I was able to implement deno in Glitch as a full Node.js replacement. The third-party plugin [Aqua](https://github.com/l2ig/aqua) felt very Express.js-esque, which enabled me to implement a basic web server in seconds: ([source](https://glitch.com/edit/#!/deno-kodumbeats))
   
-[^1]: His [announcement post](https://deno.land/v1) is worth a read, especially the discussion of Deno's current limitations.
+&nbsp;[^1]: His [announcement post](https://deno.land/v1) is worth a read, especially the discussion of Deno's current limitations.
