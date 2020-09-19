@@ -1,8 +1,9 @@
 <template>
   <ul>
     <li v-for="blog of blogposts" :key="blog.title">
-      <h2>> {{ blog.title }}</h2>
-      <h5>{{ formatDate(blog.createdAt) }}</h5>
+      <h2>> {{ blog.title }} <span class="cursor">_</span></h2>
+      <hr class="hr2" />
+      <h5>--> {{ formatDate(blog.createdAt) }}</h5>
       <nuxt-content :document="blog" />
     </li>
   </ul>
@@ -14,7 +15,7 @@ export default {
     const blogposts = await $content('blogposts')
       .only(['title', 'createdAt', 'body'])
       .sortBy('createdAt', 'desc')
-      .limit(3)
+      .limit(5)
       .fetch()
     return { blogposts }
   },
@@ -46,33 +47,43 @@ h6 {
   color: #ffffff;
   font-family: 'Changa', sans-serif;
 }
-p,
 li {
   color: #eeeeee;
   font-family: 'Cairo', sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  p {
+    margin-bottom: 1rem;
+  }
+}
+.hr2 {
+  border: 1px solid #721d53;
 }
 h2 {
-  font-size: 24px;
+  font-size: 2rem;
 }
 h5 {
-  font-size: 10px;
-  margin-bottom: 1em;
+  font-size: 1rem;
+  margin-left: 1.5rem;
 }
-p,
-code {
-  font-size: 12px;
+p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 a {
   color: #9100f0;
 }
 code {
+  font-size: 0.9rem;
   font-family: 'Changa', sans-serif;
   color: #e9fbef;
   background-color: #701351;
   border-radius: 4px;
 }
-li {
-  font-size: 8px;
+.footnote {
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 ul {
   list-style-type: none;
