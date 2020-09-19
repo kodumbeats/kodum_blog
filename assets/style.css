@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.cursor {
+  animation: blinker 1.2s step-end infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
