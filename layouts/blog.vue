@@ -2,11 +2,15 @@
   <div class="wholething">
     <mq-layout mq="md+">
       <div class="header">
-        <img class="header" src="/dotmeslashblog_4x.png" />
+        <nuxt-link to="/blog"
+          ><img class="header" src="/dotmeslashblog_4x.png"
+        /></nuxt-link>
       </div>
     </mq-layout>
     <mq-layout mq="sm">
-      <h1 class="smallheader">kodum_blog _</h1>
+      <nuxt-link to="/blog"
+        ><h1 class="smallheader">kodum_blog _</h1></nuxt-link
+      >
       <hr class="hr1" />
     </mq-layout>
     <Nuxt />

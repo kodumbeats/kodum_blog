@@ -1,7 +1,13 @@
 <template>
   <ul>
     <li v-for="blog of blogposts" :key="blog.title">
-      <h2>> {{ blog.title }} <span class="cursor">_</span></h2>
+      <h2>
+        >
+        <nuxt-link :to="blog.path" class="titlelink">
+          {{ blog.title }}
+        </nuxt-link>
+        <span class="cursor">_</span>
+      </h2>
       <hr class="hr2" />
       <h5>--> {{ formatDate(blog.createdAt) }}</h5>
       <nuxt-content :document="blog" />
@@ -13,7 +19,7 @@
 export default {
   async asyncData({ $content, params }) {
     const blogposts = await $content('blogposts')
-      .only(['title', 'createdAt', 'body'])
+      .only(['title', 'createdAt', 'body', 'path'])
       .sortBy('createdAt', 'desc')
       .limit(5)
       .fetch()
@@ -74,6 +80,14 @@ p {
 }
 a {
   color: #9100f0;
+}
+.titlelink {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.titlelink:hover {
+  color: #9100f0;
+  text-decoration: underline;
 }
 code {
   font-size: 0.9rem;
