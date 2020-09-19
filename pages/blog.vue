@@ -37,6 +37,43 @@ export default {
 </script>
 
 <style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  font-family: 'Changa', sans-serif;
+}
+p,
+li {
+  color: #eeeeee;
+  font-family: 'Cairo', sans-serif;
+}
+h2 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 10px;
+  margin-bottom: 1em;
+}
+p,
+code {
+  font-size: 12px;
+}
+a {
+  color: #9100f0;
+}
+code {
+  font-family: 'Changa', sans-serif;
+  color: #e9fbef;
+  background-color: #701351;
+  border-radius: 4px;
+}
+li {
+  font-size: 8px;
+}
 ul {
   list-style-type: none;
 }

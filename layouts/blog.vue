@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div.wholething
   div
     h1 > kodum_blog
       span.cursor |
@@ -13,6 +13,13 @@ div
 </template>
 
 <style scoped>
+.wholething {
+  background-color: #000000;
+}
+h1 {
+  color: #ffffff;
+  font-family: 'Changa', sans-serif;
+}
 .cursor {
   animation: blinker 1.2s step-end infinite;
 }
