@@ -15,7 +15,7 @@
     </mq-layout>
     <Nuxt />
     <footer>
-      <a href="https://leckemby.me">home</a>
+      <nuxt-link to="/">home</nuxt-link>
       <a href="mailto: brandon.leckemby@gmail.com">email</a>
       <a href="https://github.com/kodumbeats">github</a>
       <a href="https://www.linkedin.com/in/brandonleckemby">linkedin</a>
