@@ -1,5 +1,5 @@
 <template>
-  <ul class="container">
+  <ul>
     <li>
       <h2>> {{ blogpost.title }} <span class="cursor">_</span></h2>
       <hr class="hr2" />
@@ -83,8 +83,5 @@ code {
 }
 ul {
   list-style-type: none;
-}
-.container {
-  height: 100%;
 }
 </style>
