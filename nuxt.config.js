@@ -46,7 +46,11 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-mq',
   ],
+  mq: {
+    defaultBreakpoint: 'default',
+  },
 
   // Content module (https://content.nuxtjs.org/configuration)
   content: {
