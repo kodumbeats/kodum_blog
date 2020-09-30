@@ -19,7 +19,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .wholething {
   background-color: #000000;
 }
@@ -41,6 +41,8 @@ h2 {
 h5 {
   font-size: 1rem;
   margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 a {
   font-family: 'Changa', sans-serif;
@@ -65,7 +67,7 @@ li {
 p {
   font-size: 1.2rem;
   line-height: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-bottom: 1.2rem;
 }
 ul {
   list-style-type: none;
@@ -79,15 +81,24 @@ ul {
 .hr1 {
   border: 0;
   height: 2px;
-  background: #333;
-  background-image: linear-gradient(to right, #000, #fff, #000);
+  background-image: linear-gradient(to right, #fff, #000);
+}
+.titlelink {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.titlelink:hover {
+  color: #9100f0;
+  text-decoration: underline;
 }
 .hr2 {
-  border: 1px solid #721d53;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, #721d53, #000);
 }
 .footnote {
   font-size: 12px;
-  line-height: 50%;
+  line-height: 95%;
 }
 footer {
   text-align: center;
