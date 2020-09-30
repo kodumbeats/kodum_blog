@@ -50,10 +50,17 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://github.com/nuxt-community/robots-module
+    '@nuxtjs/robots',
+    // https://www.npmjs.com/package/nuxt-mq
     'nuxt-mq',
   ],
   mq: {
     defaultBreakpoint: 'default',
+  },
+  robots: {
+    UserAgent: '*',
+    Allow: '/',
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
