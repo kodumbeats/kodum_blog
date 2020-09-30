@@ -52,13 +52,6 @@ export default {
     defaultBreakpoint: 'default',
   },
 
-  // Content module (https://content.nuxtjs.org/configuration)
-  content: {
-    markdown: {
-      remarkPlugins: ['remark-footnotes'],
-    },
-  },
-
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
