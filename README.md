@@ -1,5 +1,7 @@
 # kodum_blog
 
+Personal blog built using Nuxt.js and its native content plugin.
+
 ## Build Setup
 
 ```bash
