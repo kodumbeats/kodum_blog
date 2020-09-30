@@ -22,7 +22,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@400;700&display=swap',
+          'https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@700&display=swap',
       },
     ],
   },
