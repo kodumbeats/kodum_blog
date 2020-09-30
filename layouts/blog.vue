@@ -1,12 +1,10 @@
 <template>
   <div class="wholething">
     <mq-layout mq="md+">
-      <nuxt-link to="/blog"><h1 class="bigheader">kodum_blog _</h1></nuxt-link>
+      <nuxt-link to="/"><h1 class="bigheader">kodum_blog _</h1></nuxt-link>
     </mq-layout>
     <mq-layout mq="sm">
-      <nuxt-link to="/blog"
-        ><h1 class="smallheader">kodum_blog _</h1></nuxt-link
-      >
+      <nuxt-link to="/"><h1 class="smallheader">kodum_blog _</h1></nuxt-link>
     </mq-layout>
     <hr class="hr1" />
     <Nuxt />
@@ -88,8 +86,8 @@ ul {
   border: 1px solid #721d53;
 }
 .footnote {
-  font-size: 0.8rem;
-  line-height: 1rem;
+  font-size: 12px;
+  line-height: 50%;
 }
 footer {
   text-align: center;
