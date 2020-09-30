@@ -1,18 +1,14 @@
 <template>
   <div class="wholething">
     <mq-layout mq="md+">
-      <div class="header">
-        <nuxt-link to="/blog"
-          ><img class="header" src="/dotmeslashblog_4x.png"
-        /></nuxt-link>
-      </div>
+      <nuxt-link to="/blog"><h1 class="bigheader">kodum_blog _</h1></nuxt-link>
     </mq-layout>
     <mq-layout mq="sm">
       <nuxt-link to="/blog"
         ><h1 class="smallheader">kodum_blog _</h1></nuxt-link
       >
-      <hr class="hr1" />
     </mq-layout>
+    <hr class="hr1" />
     <Nuxt />
     <footer>
       <nuxt-link to="/">home</nuxt-link>
@@ -29,26 +25,71 @@
 .wholething {
   background-color: #000000;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ffffff;
   font-family: 'Changa', sans-serif;
-  font-size: 2.8rem;
-  margin-left: 10px;
+}
+h1 {
+  padding-left: 1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1rem;
+  margin-left: 1.5rem;
 }
 a {
   font-family: 'Changa', sans-serif;
+  color: #9100f0;
 }
-.header {
-  display: block;
-  margin: 0 auto 1rem 4rem;
-  padding: 1rem 0;
-  height: 200px;
+code {
+  font-size: 0.9rem;
+  font-family: 'Changa', sans-serif;
+  color: #e9fbef;
+  background-color: #701351;
+  border-radius: 4px;
+}
+li {
+  color: #eeeeee;
+  font-family: 'Cairo', sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  p {
+    margin-bottom: 1rem;
+  }
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+ul {
+  list-style-type: none;
+}
+.bigheader {
+  font-size: 3.5rem;
 }
 .smallheader {
-  padding-left: 1rem;
+  font-size: 2.5rem;
 }
 .hr1 {
-  border: 2px solid #222579;
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: linear-gradient(to right, #000, #fff, #000);
+}
+.hr2 {
+  border: 1px solid #721d53;
+}
+.footnote {
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 footer {
   text-align: center;
