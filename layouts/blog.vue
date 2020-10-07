@@ -20,7 +20,7 @@
 </template>
 
 <style>
-.wholething {
+html {
   background-color: #000000;
 }
 h1,
