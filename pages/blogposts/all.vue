@@ -1,25 +1,18 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="blog of blogposts" :key="blog.title">
-        <h2>
-          >
-          <nuxt-link :to="blog.path" class="titlelink">
-            {{ blog.title }}
-          </nuxt-link>
-          <span class="cursor">_</span>
-        </h2>
-        <hr class="hr2" />
-        <h5>--> {{ formatDate(blog.createdAt) }}</h5>
-        <nuxt-content :document="blog" />
-      </li>
-    </ul>
-    <div class="allblogs">
-      <nuxt-link :to="{ path: 'blogposts/all' }" class="titlelink">
-        all blogposts
-      </nuxt-link>
-    </div>
-  </div>
+  <ul>
+    <li v-for="blog of blogposts" :key="blog.title">
+      <h2>
+        >
+        <nuxt-link :to="blog.path" class="titlelink">
+          {{ blog.title }}
+        </nuxt-link>
+        <span class="cursor">_</span>
+      </h2>
+      <hr class="hr2" />
+      <h5>--> {{ formatDate(blog.createdAt) }}</h5>
+      <nuxt-content :document="blog" />
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -28,7 +21,6 @@ export default {
     const blogposts = await $content('blogposts')
       .only(['title', 'createdAt', 'body', 'path'])
       .sortBy('createdAt', 'desc')
-      .limit(5)
       .fetch()
     return { blogposts }
   },
@@ -49,9 +41,3 @@ export default {
   layout: 'blog',
 }
 </script>
-
-<style>
-.allblogs {
-  text-align: center;
-}
-</style>
