@@ -9,4 +9,17 @@
   50% {
     opacity: 0;
   }
+}@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Cairo Regular'), local('Cairo-Regular'), url('/cairo-normal-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/changa-normal-700.ttf') format('truetype');
 }
