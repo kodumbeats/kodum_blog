@@ -17,14 +17,7 @@ export default {
         content: 'personal tech blog for kodumbeats',
       },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/justLogo.png' },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@700&display=swap',
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/justLogo.png' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
