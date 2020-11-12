@@ -10,7 +10,7 @@
           <span class="cursor">_</span>
         </h2>
         <hr class="hr2" />
-        <h5>--> {{ formatDate(blog.createdAt) }}</h5>
+        <h3>--> {{ formatDate(blog.createdAt) }}</h3>
         <nuxt-content :document="blog" />
       </li>
     </ul>
