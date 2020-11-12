@@ -21,7 +21,7 @@
 
 <style>
 html {
-  background-color: #000000;
+  background-color: #0b0c10;
 }
 h1,
 h2,
@@ -38,7 +38,7 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-h5 {
+h3 {
   font-size: 1rem;
   margin-left: 1.5rem;
   padding-top: 0.5rem;
@@ -46,7 +46,7 @@ h5 {
 }
 a {
   font-family: 'Changa', sans-serif;
-  color: #9100f0;
+  color: #ae3eff;
 }
 code {
   font-size: 0.9rem;
@@ -81,20 +81,20 @@ ul {
 .hr1 {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, #fff, #000);
+  background-image: linear-gradient(to right, #fff, #0b0c10);
 }
 .titlelink {
   color: #eeeeee;
   text-decoration: none;
 }
 .titlelink:hover {
-  color: #9100f0;
+  color: #ae3eff;
   text-decoration: underline;
 }
 .hr2 {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, #721d53, #000);
+  background-image: linear-gradient(to right, #721d53, #0b0c10);
 }
 .footnote {
   font-size: 12px;
@@ -103,5 +103,7 @@ ul {
 footer {
   text-align: center;
   padding-top: 3em;
+  color: #eeeeee;
+  font-family: 'Changa', sans-serif;
 }
 </style>
