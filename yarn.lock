@@ -7188,10 +7188,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-mq@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/nuxt-mq/-/nuxt-mq-2.0.1.tgz#0cea38a4be08df3b601d8714dd123edf044246c1"
-  integrity sha512-0goO1jk6DwW/czwnqwaseymw6X8oAObziI2+kWyqmhuCBfYic58sKt4uNJJESYL6Q05h6C4SSLjk1C/OPxaIkg==
+nuxt-mq@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/nuxt-mq/-/nuxt-mq-2.0.2.tgz#3a108dc21e287eafa3cc0ae8b3f25885599e0181"
+  integrity sha512-LsGtSHHyHsowxzT1aYgYDDy9KQpGPB5Kuykc3iD63OaICqJmTKZtz8eLBsdHw07bXa/TaAsP+o82iRbYvdkRtg==
   dependencies:
     vue-mq "^1.0.1"
 

@@ -25,7 +25,7 @@
     "@nuxtjs/robots": "^2.4.2",
     "core-js": "^3.7.0",
     "nuxt": "^2.14.7",
-    "nuxt-mq": "^2.0.1"
+    "nuxt-mq": "^2.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
