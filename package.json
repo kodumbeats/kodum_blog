@@ -24,7 +24,7 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/robots": "^2.4.2",
     "core-js": "^3.8.1",
-    "nuxt": "^2.14.10",
+    "nuxt": "^2.14.11",
     "nuxt-mq": "^2.0.1"
   },
   "devDependencies": {
