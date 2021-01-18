@@ -1,5 +1,6 @@
 ---
 title: covid_19.txt
+createdAt: 2020-10-11T00:00:00.000Z
 ---
 As one humankind, we are struggling to find our new normal, riding the waves of the internet in novel ways to solve critical problems. I'm no virologist, but I do have plenty of computers about my house, and an tenet that we all have a role to play in the world. I decided to donate my spare resources to a better cause: [Foldingathome](https://foldingathome.org/), an old friend of mine (since the PlayStation 3 era, at least).
 
