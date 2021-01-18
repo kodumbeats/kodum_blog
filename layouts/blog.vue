@@ -78,6 +78,11 @@ ul {
 .smallheader {
   font-size: 2.5rem;
 }
+.wholething {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hr1 {
   border: 0;
   height: 2px;
